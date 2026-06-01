@@ -2,17 +2,8 @@
 simulation.py
 =============
 Numerical verification of theoretical results for the paper:
-  "Enhanced COCV: Adaptive Epsilon-Tolerance and Piecewise-Linear Extensions
-   for IoT Time-Series Compression"
+  "ECOCV"
 
-Theorems verified:
-  T4  - Epsilon-COCV compression score lower bound
-  T5  - Epsilon-COCV RMSE upper bound
-  T6  - RDP-Linear compression score as function of curvature
-  T7  - SDT compression score monotonicity in deviation parameter
-  T8  - Composite (COCV + epsilon-pass) lossless-core guarantee
-  P1  - LZ-Pattern compression score lower bound (Proposition)
-"""
 
 import math
 import random
